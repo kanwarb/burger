@@ -1,8 +1,9 @@
 <header class="bg-transparent">
   <h2 class="text-center">Burgers available to eat</h2>
 </header>
+
 <div class="container">
-  <section>
+ 
     <div id="burger-available" class="eat-burger">
       {{#each burgers}}
       {{#unless devoured}}
@@ -11,22 +12,17 @@
       {{/each}}
 
     </div>
-  </section>
-  <section>
     <div id="burger-form" class="add-burger">
       <form type="form-control">
         <textarea id="add-burger" name="newBurger"></textarea><br>
-        <span class="text-center"><button id="submit" class="bg-info">Submit</button></span>
+        <span class="center"><button id="submit" class="bg-info">Submit</button></span>
       </form>
     </div>
-  </section>
-  <section class="burger-eaten">
-    <div id="burger-eaten">
+    <div id="burger-eaten" class="burger-eaten ">
       {{#each burgers}}
       {{#if devoured}}
       {{> burgers/burger-devoured devoured=true}}
       {{/if}}
       {{/each}}
     </div>
-  </section>
 </div>

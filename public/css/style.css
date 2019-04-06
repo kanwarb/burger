@@ -1,47 +1,17 @@
 body {
     width: 100%;
     margin: 0 auto;
-    background: url("../images/brickwall.jpg");
+    background: url("../images/burger.jpg") no-repeat;
 }
 
 
-div{
+/* div{
     border: transparent;
     float: left;
+    margin: auto 0;
 
 }
 
-#burger-form {
-    position: fixed;
-    margin-top: 30%;
+#burger-available {
     margin-left: 20%;
-}
-
-.eat-burger {
-    float: left;
-    margin-left: 11%;
-}
-
-.burger-eaten{
-    float: right;
-    margin-left: 40%;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  article {
-    padding: 10px;
-    width: 30%;
-    height: 60%;
-    margin-top: 80px;
-    margin-left: 20px;
-  
-}
-
-section {
- float:left;
-
-}
+} */
