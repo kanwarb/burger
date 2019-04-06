@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: url("../images/brickwall.jpg");
+}
+
+
+div{
+    border: transparent;
+    float: left;
+
+}
+
+#burger-form {
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+.eat-burger {
+    float: left;
+    margin-left: 11%;
+}
+
+.burger-eaten{
+    float: right;
+    margin-left: 40%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    margin-top: 80px;
+    margin-left: 20px;
+  
+}
+
+section {
+ float:left;
+
+}

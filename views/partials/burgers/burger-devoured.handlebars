@@ -1,7 +1,13 @@
-<li>
-	{{burger_name}}
 
-	<button class="change-sleep" data-id="{{id}}" data-devoured="{{devoured}}">
-		{{#if devoured}}Burger devoured{{else}}Available to eat{{/if}}
-	</button>
-</li>
+{{#unless devoured}}
+	<button class="eat-this bg-warning ml-5 p-4 " data-id="{{id}}" data-devoured="{{devoured}}">
+		{{burger_name}} 
+	</button><br>
+{{/unless}}
+
+{{#if devoured}}
+	<button class="already-ate bg-info ml-5 p-4" data-id="{{id}}" data-devoured="{{devoured}}">
+		{{burger_name}}  Devoured!
+	</button><br>
+{{/if}}
+
