@@ -31,6 +31,6 @@
 ## Static View of Website 
 
 ### One page app 
-![Eat Da Burger ](images/burgerapp.PNG)
+![Eat Da Burger ](/public/images/burgerapp.PNG)
 
 
